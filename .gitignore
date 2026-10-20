@@ -1,0 +1,21 @@
+# Entorno y compilacion
+venv/
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+*.exe
+
+# DATOS SENSIBLES (pacientes, personal, tramas, resultados): NUNCA subir
+MAESTROS/
+TRAMAS/
+SALIDA/
+historial/
+consolidado_final.csv
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.lnk
